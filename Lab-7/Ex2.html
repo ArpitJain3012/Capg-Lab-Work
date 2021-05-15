@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+</head>
+
+<body style="background-color:skyblue">
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="name" SIZE="20" placeholder="Enter Name" tabindex="2" maxlength="20">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Employee Code</td>
+                <td>
+                    <input type="number" SIZE="20" placeholder="Enter Code" tabindex="2" maxlength="4">
+                </td>
+            </tr>
+            <tr>
+                <td>Department</td>
+                <td>
+                    <input type="radio" name="Position"> Admin<br />
+                    <input type="radio" name="Position"> HR<br />
+                    <input type="radio" name="Position"> Technical<br />
+                    <input type="radio" name="Position"> Accounts
+                </td>
+            </tr>
+            <tr>
+                <td>Date Of Joining</td>
+                <td>
+                    <input type="Date" name="begin" placeholder="dd-mm-yyyy" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A"> </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Training Program Attended</td>
+                <td>
+                    <input type="checkbox"> HTML/DHTML<br />
+                    <input type="checkbox"> JAVA<br />
+                    <input type="checkbox"> Client/Server<br />
+                    <input type="checkbox"> .Net
+                </td>
+            </tr>
+            <tr>
+                <td>Training Program Attended</td>
+                <td>
+                    <select>
+                        <option value="s">Select</option>
+                        <option value="h"> HTML/DHTML<br />
+                        <option value="j"> JAVA<br />
+                        <option value="c"> Client/Server<br />
+                        <option value="n"> .Net
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Send the Informatiin At</td>
+                <td>
+                    <a href="empinfo@capgemini.com">empinfo@capgemini.com</a>
+                </td>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate</title>
+</head>
+
+<body style="background-color:skyblue">
+    <table border="1">
+        <tbody>
+            <tr>
+                <td >Name :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input  type="text" name="name" SIZE="15" placeholder="Enter Name" tabindex="2" maxlength="15">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Password :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="password" SIZE="15" placeholder="Enter password" tabindex="2" maxlength="15">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="number" SIZE="10" placeholder="Enter Phone Number" tabindex="2" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Date Of Birth :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Email :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="email" placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr>
+                <td>Highest Qualification :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <select>
+                        <option value="s">Select</option>
+                        <option value="bt"> B.Tech</option>
+                        <option value="mt"> M.Tech</option>
+                        <option value="mb"> MBA</option>
+                        <option value="mc"> MCA</option>
+                        <option value="ms">MSc</option>
+                        <option value="ma">MA</option>
+                        <option value="bc">BCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Courses Interested In :<span class="required" style="color: red;"> *</span></td>
+                <td>
+                    <input type="checkbox"> HTML 5<br />
+                    <input type="checkbox"> JAVA<br />
+                    <input type="checkbox"> Css 3<br />
+                    <input type="checkbox"> JQuery
+                </td>
+            </tr>
+
+            <tr>
+                <td>Comments (Mention External Certification if any..) :</td>
+                <td>
+                    <textarea name="message" rows="5" cols="60" placeholder="enter texts" ></textarea>
+                </td>
+                </tr>
+                <tr>
+                    <td>Uploading Degree / External certificates<span class="required" style="color: red;"> *</span> </td>
+                    <td><form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                      </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                   <button type="submit" name="submit" value="Submit">Submit Information</button>
+                    <button type="clear" name="clear" value="clear">Clear</button>
+               </td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
